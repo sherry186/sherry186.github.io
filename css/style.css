@@ -328,17 +328,18 @@ a:hover,a:focus {
 
 .photo-1,.photo-2,.photo-3,.photo-4,.photo-5,.photo-6{
 	background-size:cover;
-	height:100vh;
+	height:50vh;
 	width:100%;
 	background-position:center;
+  background-size: contain;
 }
 
 /* Thumbnail Images*/
 
 .photo-1 {background-image: url('../img/1.jpg');}
-.photo-2 {background-image: url('../img/2.jpg');}
-.photo-3 {background-image: url('../img/3.jpg');}
-.photo-4 {background-image: url('../img/4.jpg');}
+.photo-2 {background-image: url('../img/pathfinder.png');}
+.photo-3 {background-image: url('../img/dormy.png');}
+.photo-4 {background-image: url('../img/swappy.png');}
 .photo-5 {background-image: url('../img/5.jpg');}
 .photo-6 {background-image: url('../img/6.jpg');}
 
@@ -418,8 +419,8 @@ a:hover,a:focus {
 
 
 .img-responsive, .thumbnail > img, .thumbnail a > img, .carousel-inner > .item > img, .carousel-inner > .item > a > img {
-    height: 100vh;
-    max-width: none;
+  height: 100vh;
+  max-width: none;
 	width: 100%;
 	object-fit: cover;
 }
