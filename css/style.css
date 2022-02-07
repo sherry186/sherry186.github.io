@@ -359,7 +359,7 @@ a:hover,a:focus {
 }
 
 .modal-content {
-    background-color: "#cccccc";
+    background-color: #cccccc;
     border: none;
     border-radius: 0px;
     box-shadow: none;
@@ -380,7 +380,7 @@ a:hover,a:focus {
 /* Carousel Control*/
 
 .close {
-    color: "#2D2D2D";
+    color: #2D2D2D;
     font-size: 50px;
     font-weight: lighter;
     opacity: 1;
